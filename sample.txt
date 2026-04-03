@@ -1,0 +1,49 @@
+company -> "Fields" -> companyName, companyEmail(unique)
+"create company"
+
+
+job -> "Fields" -> job name, discription, open/close
+"post job"
+"Get all the jobs opening" -> With filters -> Very important
+"Get a job by job id" -> Very important
+"update a job" -> closing and opening.
+
+applied -> "Fields" -> jobid, candid
+"create a application" -> Apply for a job
+
+candidate -> "Fields" -> cand name, cand mail(unique)
+"post candidate"
+
+
+----- 
+
+Once completed this basic apis then go to frontend
+add more filters....
+
+
+200 -> success
+201 -> Created
+204 -> no data
+
+400 -> bad request
+401 -> un autherized
+403 -> forbiddem
+404 -> not found
+
+
+500 -> internal server error
+
+-------------------------
+
+
+frontend
+
+useSearchParams to search.
+
+-List of all jobs by calling "get all opening jobs api"
+-get one job "get job by id api"
+-use can apply for the job "by calling create application api"
+-applied user get "Applied" if there is any record with {jobid, candid}
+-each job can get all the possible candidades
+- 
+
