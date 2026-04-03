@@ -42,8 +42,8 @@ useSearchParams to search.
 
 -List of all jobs by calling "get all opening jobs api"
 -get one job "get job by id api"
--use can apply for the job "by calling create application api"
+-user can apply for the job "by calling create application api"
 -applied user get "Applied" if there is any record with {jobid, candid}
--each job can get all the possible candidades
-- 
+-each job can get all the possible candidades -> Since i was using applied schema
+- schemas -> compnay, job, applied, candidate
 
